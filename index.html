@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+    <title>Utube</title>
+    <script src="main.js" defer></script>
+    <script src="https://kit.fontawesome.com/01b67c45aa.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <i class="fab fa-youtube"></i>
+            <span class="title">Utube</span>
+        </div>
+        <div class="icons">
+            <i class="fas fa-search"></i>
+            <i class="fas fa-ellipsis-v"></i>
+        </div>
+    </header>
+
+    <!--Video Player-->
+    <section class="player">
+        <video controls src="video/1초짜리 영상은 광고가 붙을까_.mp4"></video>
+    </section>
+
+    <!--Video Info And Up next -->
+    <div class="infoAndUpNext">
+    <section class="info">
+        <div class="metadata">
+            <ul class="hashtags">
+                <li>#song</li>
+                <li>#2021</li>
+                <li>#year</li>
+            </ul>
+            <div class="titleAndButton">
+                <span class="titleClamp">노래로 돌아보는 2021년</span>
+                <button class="moreBtn"><i class="fas fa-caret-down"></i></button>
+            </div>
+                <span class="views">1M views 1 day ago</span>
+        </div>
+    <!-- Actions buttons -->
+        <ul class="actions">
+            <li>
+                <button><i class="active fas fa-thumbs-up"></i><span>1K</span></button>
+              </li>
+              <li>
+                <button><i class="fas fa-thumbs-down"></i><span>0</span></button>
+              </li>
+              <li>
+                <button><i class="fas fa-share"></i><span>Share</span></button>
+              </li>
+              <li>
+                <button><i class="fas fa-plus"></i><span>Save</span></button>
+              </li>
+              <li>
+                <button>
+                  <i class="fab fa-font-awesome-flag"></i><span>Report</span>
+                </button>
+              </li>
+            </ul>
+        <!-- Channel description -->
+        <div class="channel">
+            <div class="metadata">
+                <img src="avatar/avt.jpg" alt="" />
+                <div class="info">
+                    <span class="name">IU</span>
+                    <span class="subscribers">1M subscribers</span>
+                </div>
+            </div>
+            <button class="subscribe">subscribe</button>
+        </div>
+    </section>
+        <!-- Up next -->
+    <section class="upNext">
+        <span class="title">Up next</span>
+        <ul>
+            <li class="item">
+            <img src="img/img1.jpg" alt="">
+            <div class="itemInfo">
+                <span class="title">노래로 돌아보는 2020년</span>
+                <span class="name">Black Pink</span>
+                <span class="views">77K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+            <img src="img/img2.jpg" alt="">
+            <div class="itemInfo">
+                <span class="title">노래로 돌아보는 2019년</span>
+                <span class="name">Red Velvet</span>
+                <span class="views">77K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        <li class="item">
+            <img src="img/img3.jpg" alt="">
+            <div class="itemInfo">
+                <span class="title">노래로 돌아보는 2018년</span>
+                <span class="name">Twice</span>
+                <span class="views">77K views</span>
+            </div>
+            <button class="moreBtn"><i class="fas fa-ellipsis-v"></i></button>
+        </li>
+        </ul>
+    </section>
+    </div>
+</body>
+</html>
